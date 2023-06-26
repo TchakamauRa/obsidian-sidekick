@@ -27,5 +27,5 @@ export const showSuggestionsModal = (props: SuggestionsModalProps): void => {
 
     menu.addSeparator();
     menu.showAtMouseEvent(mouseEvent);
-  }, 100);
+  }, 1000);
 };
